@@ -38,6 +38,7 @@
 		<th>Password</th>
 		<th>Image</th>
 		<th>Details</th>
+		<th>Edit</th>
       </tr>
     </thead>
     <tbody>
@@ -64,6 +65,7 @@
 		<td><?php echo $user_image;?></td>
 		<td><?php echo $user_details;?></td>
 		<td><a class="btn btn-danger" href="tab_user.php?del=<?php echo $user_id;?>">Delete</a></td>
+		<td><a class="btn btn-sucess" href="edit_user.php?del=<?php echo $user_id;?>">Editar</a></td>
        
       </tr>
 	 <?php } ?>
